@@ -175,3 +175,10 @@
     color: rgb(116, 97, 97);
     text-align: center;
 }
+#knowledge-sec{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    gap: 100px;
+    max-width: 1840px;
+}
