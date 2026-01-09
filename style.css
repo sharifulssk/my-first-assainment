@@ -177,8 +177,36 @@
 }
 #knowledge-sec{
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
-    gap: 100px;
+    gap: 250px;
     max-width: 1840px;
+    
+}
+.knowledge-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.knowledge-text h4{
+    color: green;
+    
+}
+.knowledge-text h1{
+     font-size: 5rem;
+    color: #0f0f0f;
+    margin-top: 10px;
+}
+.knowledge-text P{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+      
+}
+.knowledge-li ul {
+    list-style: none;
+    padding: 20px;
+    line-height: 40px;
+    
 }
