@@ -245,3 +245,40 @@
     cursor: pointer;    
 
 }
+
+.site-footer {
+   display: flex;
+  
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 1840px;
+  height: 200px;
+  background-color: #020122;
+}
+.social-container p{
+    color: white;
+    text-align: end;
+    margin-left: 400px;
+}
+.site-footer span { 
+    color: rgb(252, 248, 248);
+    position: absolute;
+    margin-left: 600px;
+    font-size: 30px;
+    
+    
+
+     
+}
+.hr-lust{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    
+}
+.hr-lust hr , p {
+    color: white;
+
+}
+.hr-lust hr {
+}
