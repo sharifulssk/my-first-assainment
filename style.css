@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;}
 
+    .container{
+        max-width: 1600px;
+        margin: auto;
+    }
+
 #heading {
     display: flex;
     justify-content: space-between;
@@ -10,8 +15,7 @@
     padding: 20px 8%;
     background: white;
     background-color: rgb(248, 248, 247);
-    max-width: 1600px;
-    margin: auto;
+   
     
     
 }
@@ -41,10 +45,6 @@
     color: white;
     text-align: center;
 }
-.container{
-    max-width: 1840px;
-    margin: auto;
-}
 
 
 
@@ -58,6 +58,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 1600px;
+    margin: auto;
 
 }
 
@@ -126,6 +128,8 @@
 .not-container {
     text-align: center;
     padding: 80px 20px;
+    max-width: 1600px;
+    margin: auto;
    
 }
 .not-container h2{
@@ -141,6 +145,8 @@
 .card-container{
     display: flex;
     gap: 20px;
+    max-width: 1600px;
+    margin: auto;
     
   
 
@@ -180,8 +186,8 @@
     /* border: 1px solid black; */
     align-items: center;
     gap: 250px;
-    max-width: 1840px;
-    
+    max-width: 1600px;
+    margin: auto;
 }
 .knowledge-text{
     display: flex;
@@ -216,6 +222,8 @@
     /* background-color: #30B868; */
     align-items: center;
     gap: 20px;
+    max-width: 1600px;
+    margin: auto;
 }
 .ready-think{
     margin: 20px;
@@ -251,14 +259,16 @@
   
   align-items: center;
   margin-bottom: 20px;
-  max-width: 1840px;
+  
   height: 200px;
   background-color: #020122;
+  
 }
 .social-container p{
     color: white;
     text-align: end;
     margin-left: 400px;
+   
 }
 .site-footer span { 
     color: rgb(252, 248, 248);
@@ -279,6 +289,4 @@
 .hr-lust hr , p {
     color: white;
 
-}
-.hr-lust hr {
 }
